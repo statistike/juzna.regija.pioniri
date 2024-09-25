@@ -30,6 +30,16 @@
             margin: 0;
         }
 
+        .match-result {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 20px 0;
+            border-radius: 15px;
+            font-size: 1.2em;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
         .btn {
             background-color: #007bff;
             color: #fff;
@@ -177,6 +187,11 @@
     <h1>FK Igalo</h1>
 </header>
 
+<!-- Added match result section -->
+<div class="match-result">
+    FK Igalo 1 : 9 FK Orjen
+</div>
+
 <a href="index.html" class="btn">Vrati se nazad</a>
 <button class="btn" onclick="showPlayers()">Igrači</button>
 
@@ -238,7 +253,7 @@
         </li>
         <li>
             <div class="player-info">
-                <span>Milovan Maškić</span>
+                <span>Milovan Maksić</span>
                 <button class="player-button" onclick="openModal('Milovan Maksić', 0, 1, 0, 0,8)"></button>
             </div>
         </li>
@@ -250,26 +265,32 @@
         </li>
         <li>
             <div class="player-info">
+                <span>Božidar Radanović (G)</span>
+                <button class="player-button" onclick="openModal('Božidar Radanović (G)', 0, 1, 0, 0, 12)"></button>
+            </div>
+        </li>
+        <li>
+            <div class="player-info">
                 <span>Vasilije Koprivica</span>
-                <button class="player-button" onclick="openModal('Vasilije Koprivica', 0, 0, 0, 0, 0)"></button>
+                <button class="player-button" onclick="openModal('Vasilije Koprivica', 0, 1, 0, 0, 17)"></button>
             </div>
         </li>
         <li>
             <div class="player-info">
                 <span>Balsa Šestović</span>
-                <button class="player-button" onclick="openModal('Balsa Šestović', 0, 1, 0, 0, 0)"></button>
+                <button class="player-button" onclick="openModal('Balsa Šestović', 0, 1, 0, 0, 6)"></button>
             </div>
         </li>
         <li>
             <div class="player-info">
                 <span>Vuk Tomanović</span>
-                <button class="player-button" onclick="openModal('Vuk Tomanović', 0, 0, 0, 0, 18)"></button>
+                <button class="player-button" onclick="openModal('Vuk Tomanović', 0, 1, 0, 0,9)"></button>
             </div>
         </li>
         <li>
             <div class="player-info">
                 <span>Budimir Kilibarda</span>
-                <button class="player-button" onclick="openModal('Budimir Kilibarda', 0, 0, 0, 0, 17)"></button>
+                <button class="player-button" onclick="openModal('Budimir Kilibarda', 0, 1, 0, 0, 5)"></button>
             </div>
         </li>
     </ul>
